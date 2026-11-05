@@ -1,0 +1,30 @@
+// Auto-generated prebuilt APEX Blueprint for com.android.sdkext
+// Staged from APEX package: sdkext (com.android.sdkext)
+
+package {
+    default_applicable_licenses: ["Android-Apache-2.0"],
+}
+
+prebuilt_apex {
+    name: "com.android.sdkext",
+    apex_name: "com.android.sdkext",
+    source_apex_name: "com.android.sdkext",
+    arch: {
+        arm64: {
+            src: "com.android.sdkext.apex",
+        },
+        x86_64: {
+            src: "com.android.sdkext.apex",
+        },
+    },
+    filename: "com.android.sdkext.apex",
+    prefer: true,
+    installable: true,
+}
+
+java_import {
+    name: "framework-sdkextensions.stubs.module_lib",
+    jars: ["framework-sdkextensions-stubs.jar"],
+    sdk_version: "module_current",
+    visibility: ["//visibility:public"],
+}

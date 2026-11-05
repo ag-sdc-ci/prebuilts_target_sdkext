@@ -1,0 +1,6 @@
+shadow prebuilt repo: sdkext (target)
+  upstream: https://android.googlesource.com/platform/packages/modules/SdkExtensions
+  api-level: 34 (branch 34-20261105)
+  blobs: com.android.sdkext.apex
+  payload: flattened root include/, lib64/ + sanitized Android.bp
+  date: 2026-11-05

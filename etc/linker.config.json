@@ -1,0 +1,9 @@
+{
+	"provideLibs": [	
+		    "libdummy_headers_sdkext-x86_64-v2.so",
+		    "libdummy_headers_sdkext.so",
+		    "libdummy_sdkext_dev-x86_64-v2.so",
+		    "libdummy_sdkext_dev.so"
+	],
+	"visible": true
+}
